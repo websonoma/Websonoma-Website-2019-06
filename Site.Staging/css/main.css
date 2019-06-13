@@ -282,7 +282,7 @@ html {
 
 body {
   color: #110f24;
-  font-family: "Lato", Helvetica, sans-serif;
+  font-family: 'Nunito', sans-serif;
   font-size: 1rem;
   line-height: 1.5rem;
   overflow-x: hidden;
@@ -340,13 +340,13 @@ h6:last-child {
 h1,
 h2,
 h3 {
-  font-family: "PT Serif", Georgia, serif;
+  font-family: 'Nunito', sans-serif;
 }
 
 h4,
 h5,
 h6 {
-  font-family: "Lato", Helvetica, sans-serif;
+  font-family: 'Nunito', sans-serif;
 }
 
 h1 {
@@ -359,6 +359,14 @@ h1.hero {
   font-size: 3rem;
   font-weight: 900;
   line-height: 3.75rem;
+}
+
+span.blue {
+  color: #03a9f4;
+}
+
+span.italic {
+  font-style: italic;
 }
 
 @media only screen and (max-width: 479px) {
@@ -538,6 +546,30 @@ p:last-child {
   float: left;
   margin: 0 2%;
 }
+.logo-design {
+  background: white;
+}
+.logo-design h3{
+  color: #03a9f4;
+  text-align: center;
+  width: 100%;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
+}
+.logo-design p{
+  color: black;
+}
+.logo-design .btn-wrap {
+  width: 100%;
+}
+.logo-design .btn-wrap a{
+  max-width: 300px;
+}
+.logo-design .wrapper div {
+  justify-content: center;
+  align-items: center;
+  display: flex;  
+}
+
 
 .row [class^="col-"]:first-child {
   margin-left: 0;
@@ -1523,11 +1555,11 @@ p:last-child {
 
 .button.button-primary {
   background: #393ed8;
-  background: -webkit-linear-gradient(140deg, #575bde 25%, #393ed8 100%);
-  background: -moz-linear-gradient(140deg, #575bde 25%, #393ed8 100%);
-  background: -ms-linear-gradient(140deg, #575bde 25%, #393ed8 100%);
-  background: -o-linear-gradient(140deg, #575bde 25%, #393ed8 100%);
-  background: linear-gradient(140deg, #575bde 25%, #393ed8 100%);
+  background: -webkit-linear-gradient(140deg, #03a9f4 25%, #07488c 100%);
+  background: -moz-linear-gradient(140deg, #03a9f4 25%, #07488c 100%);
+  background: -ms-linear-gradient(140deg, #03a9f4 25%, #07488c 100%);
+  background: -o-linear-gradient(140deg, #03a9f4 25%, #07488c 100%);
+  background: linear-gradient(140deg, #03a9f4 25%, #07488c 100%);
   -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
@@ -1536,11 +1568,11 @@ p:last-child {
 
 .button.button-primary:hover {
   background: #575bde;
-  background: -webkit-linear-gradient(140deg, #575bde 25%, #575bde 100%);
-  background: -moz-linear-gradient(140deg, #575bde 25%, #575bde 100%);
-  background: -ms-linear-gradient(140deg, #575bde 25%, #575bde 100%);
-  background: -o-linear-gradient(140deg, #575bde 25%, #575bde 100%);
-  background: linear-gradient(140deg, #575bde 25%, #575bde 100%);
+  background: -webkit-linear-gradient(140deg, #03a9f4 25%, #03a9f4 100%);
+  background: -moz-linear-gradient(140deg, #03a9f4 25%, #03a9f4 100%);
+  background: -ms-linear-gradient(140deg, #03a9f4 25%, #03a9f4 100%);
+  background: -o-linear-gradient(140deg, #03a9f4 25%, #03a9f4 100%);
+  background: linear-gradient(140deg, #03a9f4 25%, #03a9f4 100%);
   -webkit-box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
