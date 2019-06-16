@@ -1,3 +1,4 @@
+
 /*!
  *
  *   Template Name: Opalin HTML Template
@@ -2609,5 +2610,98 @@ table td {
   .page-onboarding .featured-image {
     height: 12rem;
     position: relative;
+  }
+}
+
+
+/* -----------------------------------------------------------------------------
+
+# Custom Websonoma code
+
+----------------------------------------------------------------------------- */
+
+
+.logo-svg {
+    -webkit-animation: rotation 5s infinite cubic-bezier(0.4, 0, 0.2, 1);
+     -webkit-animation-iteration-count: 1;
+             animation-iteration-count: 1;
+     -webkit-animation-fill-mode: forwards;
+             animation-fill-mode: forwards;
+}
+
+.main-svg-wrapper {
+    -webkit-animation-delay: 6s;
+            animation-delay: 6s;
+    -webkit-animation: float 6s ease-in-out infinite;
+            animation: float 6s ease-in-out infinite;
+}
+
+/* -----------------------------------------------------------------------------
+
+# Custom Animations -
+
+----------------------------------------------------------------------------- */
+
+@-webkit-keyframes rotation {
+    0% {
+        -webkit-transform: rotate(0deg) scale(0.5);
+                transform: rotate(0deg) scale(0.5);
+    }
+    50% {
+        -webkit-transform: rotate(359deg) scale(0.8);
+                transform: rotate(359deg) scale(0.8);
+    }
+    100% {
+        -webkit-transform: rotate(0deg) scale(0.5);
+                transform: rotate(0deg) scale(0.5);
+    }
+}
+
+@keyframes rotation {
+    0% {
+        -webkit-transform: rotate(0deg) scale(0.5);
+                transform: rotate(0deg) scale(0.5);
+    }
+    50% {
+        -webkit-transform: rotate(359deg) scale(0.8);
+                transform: rotate(359deg) scale(0.8);
+    }
+    100% {
+        -webkit-transform: rotate(0deg) scale(0.5);
+                transform: rotate(0deg) scale(0.5);
+    }
+}
+
+@-webkit-keyframes float {
+  0% {
+    -webkit-transform: translatey(0px);
+            transform: translatey(0px);
+  }
+  50% {
+    -webkit-transform: translatey(-20px);
+            transform: translatey(-20px);
+  }
+  100% {
+    
+    -webkit-transform: translatey(0px);
+    
+            transform: translatey(0px);
+  }
+}
+
+@keyframes float {
+  0% {
+    -webkit-transform: translatey(0px);
+            transform: translatey(0px);
+  }
+  50% {
+    -webkit-transform: translatey(-20px);
+            transform: translatey(-20px);
+  }
+  100% {
+    
+    -webkit-transform: translatey(0px);
+    
+            transform: translatey(0px);
   }
 }
