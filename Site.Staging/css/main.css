@@ -366,6 +366,14 @@ span.blue {
   color: #03a9f4;
 }
 
+.text-center{
+  text-align: center;
+}
+
+.black {
+    color: #0e0e20;
+}
+
 span.italic {
   font-style: italic;
 }
@@ -1076,7 +1084,7 @@ p:last-child {
 }
 
 .bg-image-03:after {
-  background: url(../media/bg/image-03@2x.jpg);
+  background: url(../media/mario.jpg);
 }
 
 @media only screen and (max-width: 479px) {
@@ -1522,6 +1530,7 @@ p:last-child {
   line-height: 3rem;
   padding: 0 1.25rem;
   text-align: center;
+  text-transform: capitalize;
 }
 
 .button.button-s {
@@ -2629,7 +2638,7 @@ table td {
              animation-fill-mode: forwards;
 }
 
-.main-svg-wrapper {
+.main-svg-wrapper, .floating {
     -webkit-animation-delay: 6s;
             animation-delay: 6s;
     -webkit-animation: float 6s ease-in-out infinite;
